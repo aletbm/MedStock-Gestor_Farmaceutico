@@ -35,7 +35,7 @@ Aplicación móvil de gestión de inventario de medicamentos desarrollada en Flu
   <img src="assets/screenshots/settings.png" width="150"/>
   <img src="assets/screenshots/apariencia.png" width="150"/>
   <img src="assets/screenshots/exportacion.png" width="150"/>
-  <img src="assets/screenshots/about.png" width="200"/>
+  <img src="assets/screenshots/about.png" width="150"/>
 </p>
 
 ---
