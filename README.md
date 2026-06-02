@@ -1,5 +1,9 @@
 # 💊 MedStock
 
+<div align="center">
+  <img src="assets/images/medstock_logo.svg" width="200"/>
+</div>
+
 Aplicación móvil de gestión de inventario de medicamentos desarrollada en Flutter. Permite registrar, editar y controlar el stock de productos farmacéuticos de forma simple y eficiente.
 
 ---
