@@ -6,6 +6,23 @@
 
 Aplicación móvil de gestión de inventario de medicamentos desarrollada en Flutter. Permite registrar, editar y controlar el stock de productos farmacéuticos de forma simple y eficiente.
 
+<div align="center">
+
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+[![Riverpod](https://img.shields.io/badge/Riverpod-3.3.1-blue?style=for-the-badge)](https://riverpod.dev)
+[![GoRouter](https://img.shields.io/badge/Go_Router-17.2.3-FF6F00?style=for-the-badge)](https://pub.dev/packages/go_router)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://pub.dev/packages/sqflite)
+[![SharedPreferences](https://img.shields.io/badge/Shared_Preferences-2.5.5-43A047?style=for-the-badge)](https://pub.dev/packages/shared_preferences)
+[![Google Fonts](https://img.shields.io/badge/Google_Fonts-8.1.0-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://pub.dev/packages/google_fonts)
+[![intl](https://img.shields.io/badge/intl-0.20.2-7E57C2?style=for-the-badge)](https://pub.dev/packages/intl)
+[![PDF](https://img.shields.io/badge/PDF-3.12.0-E53935?style=for-the-badge)](https://pub.dev/packages/pdf)
+[![CSV](https://img.shields.io/badge/CSV-8.0.0-00897B?style=for-the-badge)](https://pub.dev/packages/csv)
+[![share_plus](https://img.shields.io/badge/share__plus-13.1.0-FDD835?style=for-the-badge)](https://pub.dev/packages/share_plus)
+[![url_launcher](https://img.shields.io/badge/url__launcher-6.3.2-78909C?style=for-the-badge)](https://pub.dev/packages/url_launcher)
+
+</div>
+
 ---
 
 ## 📱 Capturas
