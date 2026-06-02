@@ -6,7 +6,22 @@ Aplicación móvil de gestión de inventario de medicamentos desarrollada en Flu
 
 ## 📱 Capturas
 
-> _Agregá capturas de pantalla aquí_
+<p float="left">
+  <img src="assets/screenshots/splash.png" width="200"/>
+  <img src="assets/screenshots/login.png" width="200"/>
+  <img src="assets/screenshots/registro.png" width="200"/>
+  <img src="assets/screenshots/medicamentos.png" width="200"/>
+  <img src="assets/screenshots/altamedicamentos.png" width="200"/>
+  <img src="assets/screenshots/drawer.png" width="200"/>
+  <img src="assets/screenshots/perfil.png" width="200"/>
+  <img src="assets/screenshots/editperfil.png" width="200"/>
+  <img src="assets/screenshots/settings.png" width="200"/>
+  <img src="assets/screenshots/apariencia.png" width="200"/>
+  <img src="assets/screenshots/cambiodetema.png" width="200"/>
+  <img src="assets/screenshots/inventario.png" width="200"/>
+  <img src="assets/screenshots/exportacion.png" width="200"/>
+  <img src="assets/screenshots/about.png" width="200"/>
+</p>
 
 ---
 
@@ -46,6 +61,7 @@ lib/
 ├── config/
 │   └── database/          # DBHelpers (SQLite)
 ├── core/
+|   ├── router/            # Rutas
 │   ├── services/          # Servicios (exportación, etc.)
 │   └── theme/             # Colores, fuentes y temas
 ├── domain/
@@ -69,7 +85,7 @@ Se utiliza **Riverpod** con `StateNotifier` para gestionar el estado de la aplic
 - `currentUserProvider` — Usuario logueado actualmente
 - `themeProvider` — Tema y fuente seleccionados
 - `inventoryProvider` — Configuración de inventario (moneda, stock mínimo/máximo)
-
+- `routerProvider` — Notifier de enrutamiento
 ---
 
 ## ⚙️ Instalación y ejecución
@@ -100,12 +116,23 @@ flutter run
 
 ```yaml
 dependencies:
-  flutter_riverpod: ^2.x.x
-  go_router: ^x.x.x
-  sqflite: ^x.x.x
-  shared_preferences: ^x.x.x
-  intl: ^x.x.x
-  url_launcher: ^6.3.0
+  cupertino_icons: ^1.0.8
+  go_router: ^17.2.3
+  flutter_riverpod: ^3.3.1
+  sqflite: ^2.4.2+1
+  path: ^1.9.1
+  shared_preferences: ^2.5.5
+  shelf: ^1.4.2
+  smooth_page_indicator: ^2.0.1
+  flutter_launcher_icons: ^0.14.4
+  google_fonts: ^8.1.0
+  intl: ^0.20.2
+  csv: ^8.0.0
+  pdf: ^3.12.0
+  printing: ^5.14.3
+  path_provider: ^2.1.5
+  share_plus: ^13.1.0
+  url_launcher: ^6.3.2
 ```
 
 > Verificá las versiones exactas en `pubspec.yaml`
